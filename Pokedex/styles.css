@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background: #d90429;
+    display: flex;
+    justify-content: center;
+    font-family: 'Lato';
+    margin: 0;
+}
+
+.main-container{
+    display: flex;
+    margin-top: 20px;
+}
+
+.poke-container{
+    display: block;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    background-color: rgb(250, 250, 250);
+    border-radius: 10px;
+    margin: 0 10px;
+    padding: 20px;
+    text-align: center;
+    width: 900px;
+    height: 610px;
+}
+
+.pokemon{
+    background-color: #eee;
+    border-radius: 20px;
+    box-shadow: 0 3px 15px rgba(100, 100, 100, 0.5);
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+.pokemon .img-container img{
+    margin-top: 20px;
+    max-width: 90%;
+}
+
+.pokemon .info{
+    margin-top: 20px;
+}
+
+.pokemon .number{
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    font-size: 08em;
+    padding: 5px 10px;
+}
+
+.pokemon .name{
+    margin: 15px 0 7px;
+    letter-spacing: 1px;
+}
+
+.table-container{
+    display: block;
+    overflow: auto;
+    width: 380px;
+    height: 610px;
+    margin-right: 20px;
+    background-color: #690214;
+    border-radius: 10px;
+    border-color: #eee;
+    border-style: solid;
+    scrollbar-width: thin;
+}
+
+.table-container::-webkit-scrollbar{
+    width: 15px;
+}
+.table-container::-webkit-scrollbar-track{
+    background:  #c00222;
+}
+.table-container::-webkit-scrollbar-thumb{
+    background-color:  #f7022b;
+    border-radius: 15px;
+}
+
+.poke-table {
+    border-collapse: collapse;
+    color: #eee;
+    border-bottom: 1px #a0021c solid;
+    text-align: left;
+}
+.poke-table tr{
+    text-align: left;
+}
+.poke-table tr:hover {background-color:  #94031b;}
